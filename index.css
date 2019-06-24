@@ -1,0 +1,19 @@
+
+/* Slideshow container */
+.container { max-width: 1000px;position: relative;margin: auto; }
+
+/* Style in tablink */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;}
+
+/* Style the tab content */
+.tabcontent {color: white; display: auto;padding: 50px;text-align: center;}
+

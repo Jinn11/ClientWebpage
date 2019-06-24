@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>ClientWebPage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./index.css" />
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <div style="text-align:center">
+    <p>
+      <h1>“Travel far enough you meet yourself”</h1>
+    </p>
+  </div>
+  <div id="London" class="tabcontent">
+    <h1>London</h1>
+    <p>London, the capital of England and the United Kingdom, is a 21st-century city with history stretching
+      back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and
+      Westminster Abbey, site of British monarch coronations. Across the Thames River,
+      the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.
+    </p>
+  </div>
+  <div id="Paris" class="tabcontent">
+    <h1>Paris</h1>
+    <p>
+      Paris, France's capital, is a major European city and a global center for art,
+      fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and
+      the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame
+      cathedral,
+      the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.
+    </p>
+  </div>
+  <div id="Tokyo" class="tabcontent">
+    <h1>Tokyo</h1>
+    <p>Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic
+      temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace
+      sits amid large public gardens. The city's many museums offer exhibits ranging from
+      classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum).</p>
+  </div>
+  <div id="Oslo" class="tabcontent">
+    <h1>Oslo</h1>
+    <p>Oslo, the capital of Norway, sits on the country’s southern coast at the head of the Oslofjord. It’s known for
+      its green spaces and museums. Many of these are on the Bygdøy Peninsula, including the waterside Norwegian
+      Maritime Museum and the Viking Ship Museum, with Viking ships from the 9th century.
+      The Holmenkollbakken is a ski-jumping hill with panoramic views of the fjord. It also has a ski museum.</p>
+  </div>
+  <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+  <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+  <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+  <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button><br><br>
+  <div style="text-align:center">
+    <a href=#demo>
+      <h2>Contact</h2>
+    </a>
+    <h2>Travel Managment Service</h2>
+    <div class="container">
+      <div class="mySlides fade"><img src="img/H.jpg" style="width:50%"></div>
+      <div class="mySlides fade"><img src="img/Air.jpg" style="width:50%"></div>
+      <div class="mySlides fade"><img src="img/L.png" style="width:50%"></div>
+      <div class="mySlides fade"><img src="img/P.jpg" style="width:50%"></div>
+      <div class="mySlides fade"><img src="img/T.png" style="width:50%"></div><br>
+      <span class="dot">T</span><span class="dot">R</span><span class="dot">I</span><span class="dot">P</span><span
+        class="dot">5</span>
+    </div>
+  </div><br>
+  <div style="text-align:center" , class="container">
+    <h2>Air Ticket</h2>
+    <button class="accordion">
+      <h2>Swiss International Air Lines</h2>
+    </button>
+    <div class="panel">
+      <p><img src="img/Air.jpg" style="width:50%"></p>
+    </div>
+    <button class="accordion">
+      <h2>ANA All Nippon Airways</h>
+    </button>
+    <div class="panel">
+      <p><img src="img/H.jpg" style="width:50%"></p>
+    </div>
+    <button class="accordion">
+      <h2>Take Memorise</h2>
+    </button>
+    <div class="panel">
+      <p><img src="img/i.jpg" style="width:50%"></p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h1>The place You will Stay </h1>
+    <button class="accordion">
+      <h2>The Grand Riad</h2>
+    </button>
+    <div class="panel"><img src="img/R.jpg" style="width:50%"></div>
+    <button class="accordion">
+      <h2>The Hilltop Villa</h2>
+    </button>
+    <div class="panel"><img src="img/ht.jpg" style="width:50%"></div>
+    <button class="accordion">
+      <h2>The Penthous Suits</h2>
+    </button>
+    <div class="panel"><img src="img/ph.jpg" style="width:50%"></div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
+  <div style="text-align:center">
+    <h2>Ready to Fly? Fill Up the Form Please</h2>
+    Name: <input id="id1" type="text" min="1" max="15" required><br><br>
+    E-mail:<input type="text" min="1" max="15" required><br><br>
+    <button onclick="myFunction()"><a href=#demo>OK</a></button>
+    <p id="demo">Jinn</p>
+  </div>
+</body>
+
+</html>
